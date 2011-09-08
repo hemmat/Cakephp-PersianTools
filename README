@@ -1,7 +1,7 @@
-##Cakephp Persian Tools
+## Cakephp Persian Tools
 Provides various tools helping Persian Cakephp users.
 
-###Persian Sanitize Behavior
+### Persian Sanitize Behavior
 This behaviour does some automatic sanitizations like removing certain Arabic characters which are included in Persian keyboard in some older windows version, also this behaviour trims white spaces from all input fields.
 All you need to do is to add this behaviour to the app_model.php or any other models.
 
@@ -10,7 +10,7 @@ class AppModel extends Model {
 }
 
 
-###Persian Date Behavior
+### Persian Date Behavior
 This one converts all dates to Persian Date and you can control if you need to convert the input dates or output dates, also you can choose the format too. There are 3 control variables which you can set in the app_model.php or for each one of your models. Here is an example:
 
 class AppModel extends Model {
